@@ -15,6 +15,8 @@ Step 3 : Register the Service Provider
 
 Add Abhitheawesomecoder\Laraveleditprofile\EditprofileServiceProvider::class to providers array in *config/app.php*
 
+In order to override the views of the package run the following command: 'php artisan vendor:publish' you can override the views under the folder: 'views/vendor/abhitheawesomecoder/laravel-edit-profile' 
+
 ## Usage
 
 Go to link http://localhost/laravel/public/edit-profile
