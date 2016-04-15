@@ -1,16 +1,24 @@
 {
     "name": "abhitheawesomecoder/laravel-edit-profile",
     "description": "package to add edit users profile feature to auth scaffold",
-    "version": "1.0",
-    "license": "GNU GPLv3",
+    "version": "dev-master",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "Abhishek Kumar",
             "email": "abhitheawesomecoder@gmail.com"
         }
     ],    
-     "require": {
-       "php": ">=5.4.0",
-       "illuminate/support": "^5.0"
+    "minimum-stability": "dev",
+    "require": {
+          "php": ">=5.4.0",
+          "illuminate/support": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abhitheawesomecoder\\Laraveleditprofile\\": "src/"
+        }
     }
 }
