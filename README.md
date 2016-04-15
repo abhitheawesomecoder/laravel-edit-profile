@@ -3,12 +3,22 @@ This package allows to add edit users profile feature to auth scaffold of larave
 
 ## Installation
 
-Step 1 : Install Composer dependency
+Step 1 : Laravel 5.2 Auth Scafold
+
+    php artisan make:auth
+
+Step 2 : Install Composer dependency
 
     composer require abhitheawesomecoder/laravel-edit-profile
 
-Step 2 : Register the Service Provider
+Step 3 : Register the Service Provider
 
 Add Abhitheawesomecoder\Laraveleditprofile\EditprofileServiceProvider::class to providers array in *config/app.php*
+
+## Usage
+
+Go to link http://localhost/laravel/public/edit-profile
+
+where http://localhost/laravel/public/ is path to your laravel website
 
 
