@@ -1,0 +1,16 @@
+{
+    "name": "abhitheawesomecoder/laravel-edit-profile",
+    "description": "package to add edit users profile feature to auth scaffold",
+    "type": "lib",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Abhishek Kumar",
+            "email": "abhitheawesomecoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "require": {
+        "php": ">=5.4"
+    },
+}
