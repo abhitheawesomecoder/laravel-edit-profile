@@ -19,7 +19,7 @@ class EditprofileServiceProvider extends ServiceProvider
          __DIR__.'/migrations' =>  database_path('/migrations')
         ], 'migrations');*/
          $this->publishes([
-        __DIR__.'/views' =>  base_path('resources/views/abhitheawesomecoder/laravel-edit-profile')
+        __DIR__.'/views' =>  base_path('resources/views/vendor/abhitheawesomecoder/laravel-edit-profile')
         ], 'views');
     }
 
