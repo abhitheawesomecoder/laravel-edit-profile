@@ -9,17 +9,21 @@ Step 1 : Laravel 5.2 Auth Scafold
 
 Step 2 : Install Composer dependency
 
-    composer require abhitheawesomecoder/laravel-edit-profile
+    composer require abhitheawesomecoder/profilepic
 
 Step 3 : Register the Service Provider
 
-Add Abhitheawesomecoder\Laraveleditprofile\EditprofileServiceProvider::class to providers array in *config/app.php*
+Add Abhitheawesomecoder\Profilepic\ProfilepicServiceProvider::class to providers array in *config/app.php*
 
-In order to override the views of the package run the following command: 'php artisan vendor:publish' you can override the views under the folder: 'views/vendor/abhitheawesomecoder/laravel-edit-profile' 
+run the following command: 'php artisan vendor:publish' you can override the views under the folder: 'views/vendor/abhitheawesomecoder/profilepic' 
+
+Step 4 : Run Migration
+
+    php artisan migrate
 
 ## Usage
 
-Go to link http://localhost/laravel/public/edit-profile
+Go to link http://localhost/laravel/public/profile-picture
 
 where http://localhost/laravel/public/ is path to your laravel website
 
